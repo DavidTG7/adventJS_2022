@@ -13,3 +13,7 @@ function countHours(year, holidays) {
 }
 
 console.log(countHours(2020, ["02/29", "04/01", "12/25"]));
+
+const papel = "*" * 2;
+
+console.log(papel);
