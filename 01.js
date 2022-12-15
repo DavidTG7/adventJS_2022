@@ -11,8 +11,9 @@ function wrapping(gifts) {
 
   result = gifts.map((item) => {
     const actualPaper = paperWrapper(item);
+    let giftWrapped = actualPaper + "\n*" + item + "*\n" + actualPaper;
 
-    return (giftWrapped = actualPaper + "\n*" + item + "*\n" + actualPaper);
+    return giftWrapped;
   });
 
   return result;
